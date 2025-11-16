@@ -21,7 +21,7 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="h-8 w-8 rounded-full bg-primary" />
-            <span className="text-xl font-bold text-primary">BancoEstudiantil</span>
+            <span className="text-xl font-bold text-primary">Ameribank</span>
           </Link>
 
           {/* Desktop Navigation */}
