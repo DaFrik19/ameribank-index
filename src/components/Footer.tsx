@@ -126,7 +126,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-12 border-t border-secondary-foreground/20 pt-8 text-center text-sm opacity-90">
-          <p>© 2024 BancoEstudiantil. Proyecto educativo para estudiantes. Todos los derechos reservados.</p>
+          <p>© 2024 Ameribank. Proyecto educativo para estudiantes. Todos los derechos reservados.</p>
           <p className="mt-2 text-xs">
             Este es un proyecto de simulación con fines educativos. No es un banco real.
           </p>
