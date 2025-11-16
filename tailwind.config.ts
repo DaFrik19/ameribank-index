@@ -48,9 +48,10 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         banking: {
-          red: "hsl(var(--banking-red))",
+          dark: "hsl(var(--banking-dark))",
           blue: "hsl(var(--banking-blue))",
           "blue-light": "hsl(var(--banking-blue-light))",
+          accent: "hsl(var(--banking-accent))",
           gray: "hsl(var(--banking-gray))",
           "gray-light": "hsl(var(--banking-gray-light))",
         },
