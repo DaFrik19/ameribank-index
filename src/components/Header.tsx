@@ -130,10 +130,10 @@ export const Header = () => {
               <MapPin className="h-5 w-5" />
             </Button>
             <Button variant="outline" className="hidden md:inline-flex" asChild>
-              <Link to="/login">Acceder</Link>
+              <Link to="http://localhost:8081/login.html">Acceder</Link>
             </Button>
             <Button className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90" asChild>
-              <Link to="/hazte-cliente">Hazte Cliente</Link>
+              <Link to="http://localhost:8081/indexAdm.html">Acceso Administrativo</Link>
             </Button>
 
             {/* Mobile menu button */}
@@ -162,10 +162,10 @@ export const Header = () => {
                 Acerca del Banco
               </Link>
               <Button variant="outline" className="w-full" asChild>
-                <Link to="/login">Acceder</Link>
+                <Link to="http://localhost:8081/login.html">Acceder</Link>
               </Button>
               <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90" asChild>
-                <Link to="/hazte-cliente">Hazte Cliente</Link>
+                <Link to="http://localhost:8081/indexAdm.html">Acceso Administrativo</Link>
               </Button>
             </nav>
           </div>

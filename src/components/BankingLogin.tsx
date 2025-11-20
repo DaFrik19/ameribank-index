@@ -18,7 +18,7 @@ export const BankingLogin = () => {
               </p>
               <div className="space-y-2">
                 <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90" size="lg" asChild>
-                  <Link to="/login">Acceder</Link>
+                  <Link to="http://localhost:8081/login.html">Acceder</Link>
                 </Button>
                 <Button variant="outline" className="w-full" size="lg" asChild>
                   <Link to="/registro">Regístrate</Link>
