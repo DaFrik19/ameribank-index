@@ -133,7 +133,7 @@ export const Header = () => {
               <Link to="http://localhost:8081/login.html">Acceder</Link>
             </Button>
             <Button className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90" asChild>
-              <Link to="http://localhost:8081/indexAdm.html">Acceso Administrativo</Link>
+              <Link to="http://localhost:8081/login.html">Acceso Administrativo</Link>
             </Button>
 
             {/* Mobile menu button */}
@@ -165,7 +165,7 @@ export const Header = () => {
                 <Link to="http://localhost:8081/login.html">Acceder</Link>
               </Button>
               <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90" asChild>
-                <Link to="http://localhost:8081/indexAdm.html">Acceso Administrativo</Link>
+                <Link to="http://localhost:8081/login.html">Acceso Administrativo</Link>
               </Button>
             </nav>
           </div>
